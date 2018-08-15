@@ -13,6 +13,7 @@
 		0D16E3612122B7E20071E662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E3602122B7E20071E662 /* Assets.xcassets */; };
 		0D16E3642122B7E20071E662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E3622122B7E20071E662 /* LaunchScreen.storyboard */; };
 		0D16E3672122B7E20071E662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D16E3662122B7E20071E662 /* main.m */; };
+		0D7CF3EA21240CD600C63BC3 /* Alert_ActivityGoalAttained_Salient_Haptic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CF3E921240BF700C63BC3 /* Alert_ActivityGoalAttained_Salient_Haptic.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0D16E3632122B7E20071E662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D16E3652122B7E20071E662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D16E3662122B7E20071E662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D7CF3E921240BF700C63BC3 /* Alert_ActivityGoalAttained_Salient_Haptic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alert_ActivityGoalAttained_Salient_Haptic.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		0D16E3562122B7E10071E662 /* LocalPushDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0D7CF3E921240BF700C63BC3 /* Alert_ActivityGoalAttained_Salient_Haptic.caf */,
 				0D16E3572122B7E10071E662 /* AppDelegate.h */,
 				0D16E3582122B7E10071E662 /* AppDelegate.m */,
 				0D16E35A2122B7E10071E662 /* ViewController.h */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D16E3642122B7E20071E662 /* LaunchScreen.storyboard in Resources */,
+				0D7CF3EA21240CD600C63BC3 /* Alert_ActivityGoalAttained_Salient_Haptic.caf in Resources */,
 				0D16E3612122B7E20071E662 /* Assets.xcassets in Resources */,
 				0D16E35F2122B7E10071E662 /* Main.storyboard in Resources */,
 			);

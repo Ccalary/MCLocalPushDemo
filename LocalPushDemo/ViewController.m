@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <UserNotifications/UserNotifications.h>
 
+
 @interface ViewController ()
 
 @end
@@ -48,7 +49,8 @@
         // 内容
         content.body = @"测试通知的具体内容";
         // 声音
-        content.sound = [UNNotificationSound defaultSound];
+//        content.sound = [UNNotificationSound defaultSound];
+        content.sound = [UNNotificationSound soundNamed:@"Alert_ActivityGoalAttained_Salient_Haptic.caf"];
         // 角标 （我这里测试的角标无效，暂时没找到原因）
         content.badge = @1;
         // 多少秒后发送,可以将固定的日期转化为时间
